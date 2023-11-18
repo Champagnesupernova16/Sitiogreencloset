@@ -122,6 +122,10 @@ body.active a{
 
 }
 
+body.active .titulo{
+    color: white;
+}
+
 body.active .miproceso {
     background-color: rgba(31, 26, 65, 1);
     color: white;
