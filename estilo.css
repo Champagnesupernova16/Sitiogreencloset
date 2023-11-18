@@ -409,6 +409,7 @@ main{
 .counter {
     font-size: 2.5rem;
     margin: 10px 0;
+    font-family: Jockey One;
 }
 
 .infofondo h2 {
@@ -620,25 +621,43 @@ footer img{
     .wrapper {
         height: 800px;
         width: 100%;
+        background-color: white;
+        padding-top: 20px;
     }
 
-    .wrapper .menu a{
-        font-size: 18px;
+    .encabezado {
         width: 100%;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        height: 58px;
+
+
     }
+
+    .brand img {
+        position: relative;
+        left: 50px;
+        height: 45px;
+    }
+
 
     .wrapper header nav {
         width: 300px;
         height: auto;
         position: fixed;
         margin-left: 60px;
-        background-color: brown;
         padding: 15px;
         border-radius: 10px;
         text-align: left;
         z-index: 99;
+           
+    }
+
+    .wrapper header nav a {
+        font-size: 18px;
+        width: 100%;
         display: none;
-        
     }
 
     .wrapper header nav .menu {
@@ -652,68 +671,54 @@ footer img{
     .iconobarra {
         width: 200px;
     }
-    .miproceso {
+
+    .titulo {
+        font-size: 29px;
+    }
+
+    .sgpantalla {
+        height: 800px;
+        width: 100%;
+        display: flex;
+        flex-flow: column;
+        background-color: white;
+        align-items: center;
+        padding-top: 30px;
+        padding-bottom: 40px;
+        
+    }
+    .containerframe {
     
         font-size: 12px;
         width: 100%;
         height: auto;
         padding-top: 30px;
         padding-left: 10px;
-        
-    
-    }
-    
-    .miproceso main {
-        width: 100%;
-        height: 650px;
         display: flex;
         flex-flow: column;
         align-items: center;
-    }
-    
-    .video {
-        left: 25%;
-        top: 1000px;
-        
         
     }
-    
-    video {
-        width: 350px;
-        height: 440px;
-        left: 10px;
-    
+
+    .sgpantalla img {
+        width: 400px;
+        height: 300px;
     }
-    
-    .miproceso h2 {
-        width: 350px;
-        height: auto;
-        
-    }
-    
-    
-    .miproceso button {
-        width: 138px;
-        height: 44px;
-        border-radius: 50px;
-        background-color:rgba(229, 237, 133, 1);
-        border: none;
-        position: relative;
-        margin: 12px;
-        margin-bottom: 90px;
-        font-size: 18px;
-        font-weight: bold;
-    }
+   
     
     .cajaflex{
-        background-color: white;
+        background-color:white;
         width: 100%;
         height: auto;
-        padding-top: 50px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        justify-content: center;
+
     }
     .contenido {
-        
-        height: 500px;
+
+        width: 360px;
+        height: 1000px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
@@ -722,12 +727,13 @@ footer img{
     }
     
     .info-content {
-        width: 200px;
-        height: 211px;
+        width: 230px;
+        height: 219px;
         border-radius: 30px;
-        padding: 20px;
+        padding: 5px;
         text-align: center;
-        font-size: 12px;
+        font-size: 30px;
+        
         
     }
     
@@ -737,32 +743,28 @@ footer img{
         margin-top: -6px;
         width: 20px;
         height: 20px;
+        display: none;
         
     }
     
     .info-content h2{
         margin-bottom: 12px;
-        font-size: 13px;
+        font-size: 17px;
     }
     
     .info-content p {
-        font-size: 12px;
+        font-size: 15px;
     }
     
     .imagenlogo {
-        display: block;
-        width: 170px;
-        height: 170px;
-        position: absolute;
-        left: 210px;
-        top: 1660px;
+        display: none;
     }
     .pasos {
         background-color: white;
         width: 100%;
-        height: 1024px;
+        height: auto;
         font-family: Josefin Sans;
-        padding-top: 150px;
+        padding-top: 50px;
         display: flex;
         flex-flow: column;
         align-items: center;
@@ -775,8 +777,8 @@ footer img{
         overflow-x: hidden;
     }
     
-    .pasosprimer p{
-        font-size: 18px;
+    .pasosprimer h3{
+        font-size: 22px;
     }
     .pasosprimer h2 {
         background-color: rgba(245, 207, 207, 1);
@@ -786,11 +788,12 @@ footer img{
         height: auto;
         font-size: 18px;
         position: relative;
-         
+        left: 0;
     }
     
     .contenedorpasos{
         width: 100%;
+        height: auto;
         display: flex;
         flex-flow: column;
         justify-content: space-around;
@@ -799,9 +802,12 @@ footer img{
     }
     .infopasos{
         width: 300px;
-        height: 114px;
+        height: 300px;
         border-radius: 20px;
         padding-top: 30px;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
     
     }
     
@@ -809,6 +815,11 @@ footer img{
         position: relative;
         text-align: center;
         font-size: 18px;
+    }
+
+    .infopasos img {
+        width: 230px;
+        height: 250px;
     }
     .fondo{
         height: auto;
@@ -824,6 +835,11 @@ footer img{
         width: 200px;
         height: 211px;
         border-radius: 60px;
+        font-size: 18px;
+    }
+
+    .counter {
+        font-size: 27px;
     }
     
     .infofondo img{
@@ -836,7 +852,7 @@ footer img{
     
     .infofondo h2 {
         position: relative;
-        top: 90px;
+        top: 22px;
         font-size: 18px;
     }
     .contacto {
