@@ -299,13 +299,16 @@ video {
     width: 100%;
     height: 1024px;
     padding-top: 50px;
+    display: flex;
+    
+    
 }
 .contenido {
-    
     height: 1024px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
     
     
 }
