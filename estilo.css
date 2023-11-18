@@ -625,11 +625,11 @@ footer img{
         padding-top: 20px;
     }
 
-    .encabezado {
+   .encabezado {
         width: 100%;
         background-color: white;
         display: flex;
-        justify-content: center;
+        justify-content: left;
         height: 58px;
 
 
@@ -637,10 +637,9 @@ footer img{
 
     .brand img {
         position: relative;
-        left: 50px;
+        left: 170px;
         height: 45px;
     }
-
 
     .wrapper header nav {
         width: 300px;
