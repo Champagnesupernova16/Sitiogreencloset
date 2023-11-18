@@ -304,7 +304,8 @@ video {
     
 }
 .contenido {
-    height: 1024px;
+    width: 1300px;
+    height: 1020px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
