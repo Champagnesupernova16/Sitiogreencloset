@@ -879,7 +879,7 @@ footer img{
     .contacto .col input, .contacto .col textarea {
     
         display: block;
-        width: 320px;
+        width: 260px;
         padding: 10px;
         margin-bottom: 10px;
         color: black;
@@ -893,7 +893,7 @@ footer img{
         border: none;
         border-radius: 20px;
         background-color: rgba(229, 237, 133, 1);
-        width: 320px;
+        width: 260px;
         height: 100px;
     
     }
@@ -904,7 +904,7 @@ footer img{
         border: 2px solid black;
         width: fit-content;
         display: block;
-        left: 120px;
+        left: 70px;
         padding: 10px 22px;
         font-size: 16px;
         color: black;
